@@ -1,0 +1,36 @@
+
+### GET
+
+GET http://localhost:8000/api/projects
+
+### POST
+POST http://localhost:8000/api/projects/
+Content-Type: application/json
+
+{
+  "title": "Old school project",
+  "description": "Use php with laravel and mysql",
+  "technology": "php"
+}
+
+### PUT
+PUT http://localhost:8000/api/projects/1/
+Content-Type: application/json
+
+{
+  "title": "api resrful project",
+  "description": "A RESTful API project",
+  "technology": "python"
+}
+
+### DELETE
+
+DELETE http://localhost:8000/api/projects/4/
+
+### PATCH
+PATCH http://localhost:8000/api/projects/3/
+Content-Type: application/json
+
+{
+  "description": "A project with a RESTful API Framework Gin in Golang"
+}
