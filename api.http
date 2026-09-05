@@ -44,3 +44,13 @@ Content-Type: application/json
   "description": "Rust with actix framework",
   "technology": "rust"
 }
+
+### New resource
+POST http://localhost:8000/api/projects/
+Content-Type: application/json
+
+{
+  "title": "New project old wit C# and .NET framework",
+  "description": "C# with .NET framework",
+  "technology": "csharp"
+}
