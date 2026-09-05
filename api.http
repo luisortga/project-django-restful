@@ -54,3 +54,23 @@ Content-Type: application/json
   "description": "C# with .NET framework",
   "technology": "csharp"
 }
+
+#### New resource
+POST http://localhost:8000/api/projects/
+Content-Type: application/json
+
+{
+  "title": "Empresarial project with java and spring framework",
+  "description": "Java with Spring framework",
+  "technology": "java"
+}
+
+### New resource
+POST http://localhost:8000/api/projects/
+Content-Type: application/json
+
+{
+  "title": "fun project with nodejs and express framework",
+  "description": "Nodejs with express framework",
+  "technology": "nodejs"
+}
