@@ -34,3 +34,13 @@ Content-Type: application/json
 {
   "description": "A project with a RESTful API Framework Gin in Golang"
 }
+
+### New resource
+POST http://localhost:8000/api/projects/
+Content-Type: application/json
+
+{
+  "title": "New project with rust and actix framework",
+  "description": "Rust with actix framework",
+  "technology": "rust"
+}
