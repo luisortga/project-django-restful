@@ -9,3 +9,7 @@ This project is a RESTful API built using Django and Django REST Framework (DRF)
 ![sqlite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
 ![thunder-client](https://img.shields.io/badge/Thunder%20Client-FF6C37?style=for-the-badge&logo=thunder-client&logoColor=white)
 ![swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white)
+
+### Coming Soon deployment
+
+![heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
